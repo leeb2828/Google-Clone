@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #202124;
+}
+
+header {
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 75px;
+}
+
+.floatLeft,
+.floatRight {
+    display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+
+.floatLeft li,
+.floatRight li {
+    display: inline-block;
+    padding: 4px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+.floatLeft li a,
+.floatRight li a {
+    text-decoration: none;
+    color: #202124;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#advanced_search {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#advanced_search label {
+    color: rgb(224, 47, 47);
+    font-size: 20px;
+    margin: 50px 30px;
+}
+
+.separator-line {
+    width: 100%;
+    border-bottom: solid 1px #ececec;
+}
+
+.advanced_search_container {
+    margin: 0;
+}
+
+form {
+    margin: 50px 40px;
+}
+
+form > label:first-of-type {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-right: 40px;
+}
+
+.form_group {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px 0;
+}
+
+.form_group label {
+    width: 150px;
+    font-size: 13px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form_group input[type=text] {
+    width: 60%;
+    max-width: 700px;
+    border: 1px solid rgb(180, 178, 178);
+    font-size: 16px;
+    margin: 0 0 0 10px;
+    padding: 4px 0;
+}
+
+.align-right {
+    width: 60%;
+    max-width: 700px;
+    margin: 0 0 0 10px;
+    padding: 4px 0;
+}
+
+.advanced_button {
+    float: right;
+    color: #fff;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #4d90fe;
+}
+
+#spec {
+    display: none;
+}
+
+.specification {
+    display: none;
+}
+
+.whitespace {
+    display: inline-block;
+    width: 60%;
+    max-width: 700px;
+}
+
+
+
+@media only screen and (min-width: 1020px) {
+    .specification {
+        width: 250px;
+        margin-left: 10px;
+        display: block;
+    }
+}

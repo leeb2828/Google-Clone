@@ -1,0 +1,107 @@
+body {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #202124;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+
+.floatLeft,
+.floatRight {
+    display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+
+.floatLeft li,
+.floatRight li {
+    display: inline-block;
+    padding: 4px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+.floatLeft li a,
+.floatRight li a {
+    text-decoration: none;
+    color: #202124;
+}
+
+
+/* Contains logo, input form, search button */
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#logo img {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+.box {
+    padding: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    margin: 10px;
+}
+
+.magnifying_glass {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.searchBar {
+    display: block;
+    font-size: 16px;
+    margin: 0;
+    width: 75%;
+    padding: 10px 2px;
+    border: none;
+} 
+
+.searchBar::placeholder {
+    font-size: 16px;
+    text-align: left;
+}
+
+.searchBar:focus {
+    outline: none;
+}
+
+.searchButton {
+    display: inline-block;
+    background-color: #F8F9FA;
+    border-style: none;
+    padding: 8px 16px;
+    margin: 10px;
+}
+
+.searchButton:hover {
+    cursor: pointer;
+}
+
+
